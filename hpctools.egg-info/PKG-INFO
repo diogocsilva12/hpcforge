@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: hpctools
+Version: 0.1.0
+Summary: HPC automation toolkit for generating Makefiles and SLURM job scripts.
+Author: Diogo Silva (diogocsilva)
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: click>=8.0
+Requires-Dist: rich>=13.0
+Requires-Dist: questionary>=2.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
