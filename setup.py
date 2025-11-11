@@ -1,26 +1,24 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="hpctools",
+    name="hpc-forge",
     version="0.1.0",
-    author="Diogo Silva (diogocsilva)",
-    description="HPC automation toolkit for generating Makefiles and SLURM job scripts.",
     packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        "click",
+        "questionary",
+        "rich"
+    ],
     entry_points={
         "console_scripts": [
-            "hpctools = hpctools.cli:cli",
+            "hpctools=hpctools.cli:cli",
         ],
     },
-    install_requires=[
-        "click>=8.0",
-        "rich>=13.0",
-        "questionary>=2.0",
-    ],
-    python_requires=">=3.8",
+    author="Diogo Silva",
+    author_email="diogo.coelho.silva@gmail.com",
+    description="A lightweight CLI toolkit for HPC automation (Makefiles, SLURM jobs, templates)",
     license="MIT",
-    classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ],
+    python_requires=">=3.8",
+    url="https://github.com/diogocsilva12/hpctools",
 )
