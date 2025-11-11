@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="hpcforge",
+    name="hpcforge-cli",
     version="0.1.0",
     packages=find_packages(),
     include_package_data=True,
@@ -12,7 +12,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "hpctools=hpctools.cli:cli",
+            "hpcforge=hpctools.cli:cli",
         ],
     },
     author="Diogo Silva",

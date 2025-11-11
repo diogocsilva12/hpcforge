@@ -23,7 +23,49 @@ It helps you **generate optimized Makefiles**, **create SLURM job scripts**, and
 
 ## 🧑‍💻 Installation
 
-### 📦 From PyPI
-Once published:
+### 📦 From PyPI (recommended)
 ```bash
-pip install hpcforge
+pip install hpcforge-cli
+hpcforge
+```
+
+### From Source
+```bash
+git clone https://github.com/diogocsilva12/hpcforge.git
+cd hpcforge
+pip install -e .
+
+hpcforge
+```
+
+### Usage
+Run the main CLI menu:
+```bash
+hpcforge
+``` 
+
+```bash
+hpcforge make
+hpcforge slurm
+hpcforge slurm
+```
+
+
+
+### Contributing
+Contributions are welcome!
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/new-feature`)
+3. Commit your changes (`git commit -m 'Add new feature'`)
+4. Push to the branch (`git push origin feature/new-feature`)
+5. Open a Pull Request
+
+### License
+MIT License. See `LICENSE` file for details.
+
+### Links
+- **Repository:** [github.com/diogocsilva12/hpcforge](https://github.com/diogocsilva12/hpcforge)
+- **Changelog:** See `CHANGELOG.md` for detailed version history and upcoming features.
+- PyPI Package: [pypi.org/project/hpcforge-cli](https://pypi.org/project/hpcforge-cli)
+- Issues & Discussions: [github.com/diogocsilva12/hpcforge/issues](https://github.com/diogocsilva12/hpcforge/issues)
+

@@ -58,7 +58,6 @@ temp/
 *.cfg
 
 # Ignore documentation or internal notes
-CHANGELOG.md
 codex.md
 
 # Optional: ignore local test folders or generated templates
