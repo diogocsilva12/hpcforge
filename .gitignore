@@ -1,0 +1,66 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.dll
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+venv/
+.env/
+env/
+.venv/
+
+# ------------------------------
+# Build / Packaging
+# ------------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+*.manifest
+*.spec
+
+# ------------------------------
+# Logs / Cache
+# ------------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Tools / IDEs
+# ------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# ------------------------------
+# Custom project ignores
+# ------------------------------
+# Local scripts or outputs
+output/
+temp/
+*.out
+*.dat
+*.json
+*.yaml
+*.cfg
+
+# Ignore documentation or internal notes
+CHANGELOG.md
+codex.md
+
+# Optional: ignore local test folders or generated templates
+tests/
+templates/generated/

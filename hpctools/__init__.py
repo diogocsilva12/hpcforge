@@ -11,12 +11,12 @@ Subcommands:
     hpctools slurm  → Create a SLURM job script
     hpctools all    → Generate both at once
 
-(c) 2025 HPC Tools — Diogo Silva (diogocsilva)
+(c) 2025 HPC Tools — Diogo Silva (diogocsilva12)
 """
 
 __appname__ = "hpctools"
 __version__ = "0.1.0"
-__author__ = "Diogo Silva (diogocsilva)"
+__author__ = "Diogo Silva (diogocsilva12)"
 __license__ = "MIT"
 
 from hpctools.makegen import generate_makefile
