@@ -6,6 +6,9 @@ It helps you **generate optimized Makefiles**, **create SLURM job scripts**, and
 
 ---
 
+
+![Demo](https://github.com/diogocsilva12/hpcforge/blob/1ec662a78adbb54975283038d92b89843e55601f/WindowsTerminal_GoKppokiMS.png?raw=true)
+
 ## 🚀 Features
 
 | Feature | Description |
