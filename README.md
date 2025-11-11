@@ -30,10 +30,10 @@ Whether you’re running on clusters like **Deucalion**, **SeARCH**, or local Li
 If you are cloning from GitHub:
 
 ```bash
-git clone https://github.com/yourusername/hpctools.git
+git clone https://github.com/diogocsilva12/hpctools.git
 cd hpctools
 pip install -e .
 
 
-MIT License © 2025 Diogo Silva - diogocsilva
+MIT License © 2025 Diogo Silva - diogocsilva12
 Contributions welcome — open an issue or pull request on GitHub.
