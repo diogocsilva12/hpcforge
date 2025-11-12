@@ -79,7 +79,6 @@
 
 ## 🧠 Notes
 
-- All features and improvements are tracked in `codex.md`.
 - Each minor version focuses on **UX refinement + automation depth**.
 - Every new cluster preset or template should be version-tagged separately.
 
