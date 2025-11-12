@@ -29,7 +29,7 @@ It helps you **generate optimized Makefiles**, **create SLURM job scripts**, and
 ### 📦 From PyPI (recommended)
 ```bash
 pip install hpcforge-cli
-hpctools        
+hpcforge
 ```
 
 ### From Source
@@ -38,19 +38,19 @@ git clone https://github.com/diogocsilva12/hpcforge.git
 cd hpcforge
 pip install -e .
 
-hpctools
+hpcforge
 ```
 
 ### Usage
 Run the main CLI menu:
 ```bash
-hpctools
+hpcforge
 ``` 
 
 ```bash
-hpctools make
-hpctools slurm
-hpctools slurm
+hpcforge make
+hpcforge slurm
+hpcforge slurm
 ```
 
 
